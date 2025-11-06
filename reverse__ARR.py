@@ -1,3 +1,5 @@
+#que= reverse an given array without using slicing or reverce() function .
+
 arr= [10,20,30,40,50]
 
 start=0
@@ -9,3 +11,4 @@ while start<end :
     end-=1
 
 print ( "reverse array:" , arr)
+
