@@ -4,7 +4,8 @@ arr=[5,10,15,20]
 3. delete element at index 1
 4. find max element manually
 """
-arr= [ 5 , 10 , 15 , 20 ]
+from array import *
+arr= array( 'i', [ 5 , 10 , 15 , 20 ])
 
 for i in arr:
     print( i , end=" ")
@@ -27,4 +28,5 @@ maxEl= arr[0]
 for m in range(1,len(arr)):
     if arr[m]> maxEl:
         maxEl= arr[m]
+
 print(" maximum element :" , maxEl)
